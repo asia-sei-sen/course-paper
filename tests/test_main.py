@@ -3,6 +3,7 @@ import pytest
 from unittest.mock import patch
 from src.main import user_interaction
 
+
 def test_user_interaction_runs():
     inputs = [
         "Python",   # поисковый запрос
